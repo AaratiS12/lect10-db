@@ -14,7 +14,8 @@
     c) `\l` look for ec2-user as a database  
 5. Make a new user:  
     a) `psql` (if you already quit out of psql)  
-    b) Type this with a new unique password: `create user some_username_here superuser password 'some_unique_new_password_here';`  
+    b) Type this with a new unique password:  
+    `create user some_username_here superuser password 'some_unique_new_password_here';`  
     c) `\q` to quit out of sql  
 
 # Getting PSQL to work with Python
