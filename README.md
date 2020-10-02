@@ -11,4 +11,8 @@
 4. Make sure your user shows up:  
     a) `psql`  
     b) `\du` look for ec2-user as a user  
-    c) `\l` look for ec2-user as a database
+    c) `\l` look for ec2-user as a database  
+5. Make a new user:  
+    a) `psql` (if you already quit out of psql)  
+    b) Type this with a new unique password: `create user some_username_here superuser password 'some_unique_new_password_here';`  
+    c) `\q` to quit out of sql  
